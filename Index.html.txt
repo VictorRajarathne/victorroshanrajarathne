@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Company</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts for additional styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-poppins bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-6 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+      <h1 class="text-3xl font-bold">DigitalMark</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-blue-200">Home</a></li>
+          <li><a href="#services" class="hover:text-blue-200">Services</a></li>
+          <li><a href="#about" class="hover:text-blue-200">About Us</a></li>
+          <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-cover bg-center h-[60vh]" style="background-image: url('https://images.unsplash.com/photo-1532634976-e4f22bafba4e');">
+    <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+      <div class="text-center text-white px-6">
+        <h2 class="text-4xl md:text-6xl font-semibold">Boost Your Business with Our Digital Marketing</h2>
+        <p class="mt-4 text-lg md:text-xl">We specialize in growing your online presence with data-driven strategies.</p>
+        <a href="#contact" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600 transition duration-300">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-semibold text-blue-600">Our Services</h2>
+      <p class="mt-4 text-lg text-gray-600">We offer a range of services to help your business succeed online.</p>
+      <ul class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <li class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-search-dollar text-blue-600 text-4xl"></i>
+          <h3 class="text-xl font-semibold mt-4">SEO Optimization</h3>
+          <p class="mt-2 text-gray-600">Improve your website ranking and drive organic traffic with our tailored SEO strategies.</p>
+        </li>
+        <li class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-ad text-blue-600 text-4xl"></i>
+          <h3 class="text-xl font-semibold mt-4">PPC Advertising</h3>
+          <p class="mt-2 text-gray-600">Maximize your ROI with effective paid search and social ads.</p>
+        </li>
+        <li class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <i class="fas fa-chart-line text-blue-600 text-4xl"></i>
+          <h3 class="text-xl font-semibold mt-4">Social Media Marketing</h3>
+          <p class="mt-2 text-gray-600">Grow your brand presence and engage with your audience through targeted campaigns.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-semibold text-blue-600">About Us</h2>
+      <p class="mt-4 text-lg text-gray-600">We are a passionate team of digital marketers committed to delivering results. Our expertise and innovation help brands thrive online.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-blue-600 text-white">
+    <div class="max-w-7xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-semibold">Get in Touch</h2>
+      <p class="mt-4 text-lg">Ready to take your business to the next level? Contact us today and let’s get started.</p>
+      <a href="mailto:contact@digitalmark.com" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-full text-lg hover:bg-gray-100 transition duration-300">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 DigitalMark. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
